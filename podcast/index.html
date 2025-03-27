@@ -3,23 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Podcast de Videojuegos</title>
+    <title>Portal de Videojuegos</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Podcast de Videojuegos</h1>
+        <h1>Bienvenido al Portal de Videojuegos</h1>
+        <form action="search.html" method="get" class="search-bar">
+            <input type="text" name="q" placeholder="Buscar..." aria-label="Buscar">
+            <button type="submit">Buscar</button>
+        </form>
     </header>
     <nav>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
         </ul>
     </nav>
     <main>
-        <p>En nuestro podcast discutimos las últimas noticias, analizamos juegos y entrevistamos a desarrolladores. ¡No te lo pierdas!</p>
+        <section id="podcasts">
+            <h2>Lista de Podcasts</h2>
+            <div class="audio-container">
+                <h3>Podcast 1</h3>
+                <audio controls>
+                    <source src="episodio1.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+            <div class="audio-container">
+                <h3>Podcast 2</h3>
+                <audio controls>
+                    <source src="episodio2.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+            <div class="audio-container">
+                <h3>Podcast 3</h3>
+                <audio controls>
+                    <source src="episodio3.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2023 Portal de Videojuegos</p>
+        <div class="footer-content">
+            <p>&copy; 2025 Portal de Videojuegos. Todos los derechos reservados.</p>
+            <a href="feeds.opml" download="feeds.opml">
+                <button type="button">Suscribirse a Feeds</button>
+            </a>
+        </div>
     </footer>
 </body>
 </html>

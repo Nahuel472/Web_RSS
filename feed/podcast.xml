@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Podcast del Portal de Videojuegos</title>
+        <link>https://www.tuportaldevideojuegos.com/podcast</link>
+        <description>El mejor podcast sobre videojuegos, noticias, análisis y más.</description>
+        <language>es</language>
+        <copyright>Copyright 2023 Portal de Videojuegos</copyright>
+        <lastBuildDate>Thu, 27 Mar 2025 12:00:00 +0000</lastBuildDate>
+        <image>
+            <url>https://www.tuportaldevideojuegos.com/images/podcast-logo.png</url>
+            <title>Podcast del Portal de Videojuegos</title>
+            <link>https://www.tuportaldevideojuegos.com/podcast</link>
+        </image>
+        
+        <!-- Episodio 1 -->
+        <item>
+            <title>Episodio 1: Introducción al Portal de Videojuegos</title>
+            <link>https://www.tuportaldevideojuegos.com/podcast/episodio1</link>
+            <description>En este episodio, presentamos el Portal de Videojuegos y lo que puedes esperar de nuestro podcast.</description>
+            <pubDate>Thu, 20 Mar 2025 12:00:00 +0000</pubDate>
+            <enclosure url="https://www.tuportaldevideojuegos.com/podcast/episodio1.mp3" length="12345678" type="audio/mpeg" />
+            <guid>https://www.tuportaldevideojuegos.com/podcast/episodio1</guid>
+        </item>
+        
+        <!-- Episodio 2 -->
+        <item>
+            <title>Episodio 2: Los mejores juegos de 2025</title>
+            <link>https://www.tuportaldevideojuegos.com/podcast/episodio2</link>
+            <description>Hablamos sobre los mejores lanzamientos de videojuegos en 2025.</description>
+            <pubDate>Thu, 27 Mar 2025 12:00:00 +0000</pubDate>
+            <enclosure url="https://www.tuportaldevideojuegos.com/podcast/episodio2.mp3" length="23456789" type="audio/mpeg" />
+            <guid>https://www.tuportaldevideojuegos.com/podcast/episodio2</guid>
+        </item>
+    </channel>
+</rss>

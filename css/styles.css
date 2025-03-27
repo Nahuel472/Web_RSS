@@ -1,10 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
+    margin: 0; /* Elimina márgenes globales */
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    box-sizing: border-box;
 }
 
 header {
@@ -14,20 +15,37 @@ header {
     text-align: center;
 }
 
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
 nav ul {
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
     padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
     text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
+    padding: 14px 16px;
     text-decoration: none;
-    color: #333;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+/* Opcional: estilo para el elemento activo */
+.active {
+    background-color: #4CAF50;
 }
 
 footer {
@@ -38,6 +56,11 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin: 0; /* Asegúrate de que no tenga margen */
+}
+
+main, nav {
+    margin: 20px; /* Aplica márgenes solo a main y nav */
 }
 
 /* Estilo para la barra de búsqueda */
@@ -47,7 +70,7 @@ footer {
     margin-top: 10px;
 }
 
-.search-bar input[type="text"] {
+search-bar input[type="text"] {
     padding: 5px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -96,4 +119,34 @@ footer {
 .post-box p {
     margin: 0;
     color: #555;
+}
+
+.subscribe-button {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.subscribe-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para las cajas de los podcasts */
+.audio-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.audio-container h3 {
+    margin-top: 0;
 }

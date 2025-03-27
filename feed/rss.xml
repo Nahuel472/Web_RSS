@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Noticias del Portal de Videojuegos</title>
+    <link>https://www.tuportaldevideojuegos.com</link>
+    <description>Últimas noticias, análisis y actualizaciones del mundo gamer</description>
+    <language>es</language>
+    <copyright>Copyright 2023 Portal de Videojuegos</copyright>
+    <lastBuildDate>Thu, 27 Mar 2025 12:00:00 GMT</lastBuildDate>
+    
+    <item>
+      <title>Nuevo lanzamiento: Los mejores juegos de 2025</title>
+      <link>https://www.tuportaldevideojuegos.com/noticias/mejores-juegos-2025</link>
+      <description>Descubre cuáles son los juegos más esperados de este año y por qué están en boca de todos.</description>
+      <pubDate>Thu, 27 Mar 2025 10:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Actualización: Podcast del Portal de Videojuegos</title>
+      <link>https://www.tuportaldevideojuegos.com/podcast</link>
+      <description>Escucha nuestro último episodio del podcast, donde hablamos sobre los lanzamientos más recientes.</description>
+      <pubDate>Thu, 27 Mar 2025 08:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Explora nuestro Blog</title>
+      <link>https://www.tuportaldevideojuegos.com/blog</link>
+      <description>Lee artículos interesantes sobre la historia de los videojuegos y análisis de los títulos más populares.</description>
+      <pubDate>Wed, 26 Mar 2025 15:00:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>
