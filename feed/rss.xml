@@ -7,6 +7,11 @@
     <language>es</language>
     <copyright>Copyright 2025 Portal de Videojuegos</copyright>
     <lastBuildDate>Tue, 01 Apr 2025 12:00:00 GMT</lastBuildDate>
+    <image>
+      <url>https://nahuel472.github.io/Web_RSS/images/rss-logo.png</url>
+      <title>Portal de Videojuegos</title>
+      <link>https://nahuel472.github.io/Web_RSS</link>
+    </image>
 
     <item>
       <title>Nuevo análisis: Los mejores juegos de 2023</title>
