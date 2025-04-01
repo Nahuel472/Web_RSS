@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
     <head>
-        <title>Feeds de Videojuegos</title>
+        <title>Feeds del Portal de Videojuegos</title>
     </head>
     <body>
+        <!-- Categoría: Noticias de Videojuegos -->
         <outline text="Noticias de Videojuegos" title="Noticias de Videojuegos">
+            <outline text="Portal de Videojuegos - Noticias" type="rss" xmlUrl="https://www.portaldevideojuegos.com/feed/rss.xml" htmlUrl="https://www.portaldevideojuegos.com" />
             <outline text="IGN" type="rss" xmlUrl="https://www.ign.com/articles/rss" htmlUrl="https://www.ign.com" />
             <outline text="Kotaku" type="rss" xmlUrl="https://kotaku.com/rss" htmlUrl="https://kotaku.com" />
             <outline text="Eurogamer" type="rss" xmlUrl="https://www.eurogamer.net/?format=rss" htmlUrl="https://www.eurogamer.net" />
         </outline>
+
+        <!-- Categoría: Análisis y Reseñas -->
         <outline text="Análisis y Reseñas" title="Análisis y Reseñas">
+            <outline text="Portal de Videojuegos - Análisis" type="rss" xmlUrl="https://www.portaldevideojuegos.com/feed/analisis.xml" htmlUrl="https://www.portaldevideojuegos.com/analisis" />
             <outline text="GameSpot" type="rss" xmlUrl="https://www.gamespot.com/feeds/reviews/" htmlUrl="https://www.gamespot.com" />
             <outline text="Metacritic" type="rss" xmlUrl="https://www.metacritic.com/rss/games" htmlUrl="https://www.metacritic.com" />
         </outline>
+
+        <!-- Categoría: Podcasts de Videojuegos -->
         <outline text="Podcasts de Videojuegos" title="Podcasts de Videojuegos">
+            <outline text="Portal de Videojuegos - Podcast" type="rss" xmlUrl="https://www.portaldevideojuegos.com/feed/podcast.xml" htmlUrl="https://www.portaldevideojuegos.com/podcast" />
             <outline text="Podcast de IGN" type="rss" xmlUrl="https://feeds.ign.com/ignfeeds/podcasts" htmlUrl="https://www.ign.com" />
             <outline text="Game Informer Podcast" type="rss" xmlUrl="https://www.gameinformer.com/podcast/rss" htmlUrl="https://www.gameinformer.com" />
         </outline>

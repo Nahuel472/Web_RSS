@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Noticias del Portal de Videojuegos</title>
-    <link>https://www.tuportaldevideojuegos.com</link>
-    <description>Últimas noticias, análisis y actualizaciones del mundo gamer</description>
+    <title>Portal de Videojuegos - Últimas Noticias</title>
+    <link>https://www.portaldevideojuegos.com</link>
+    <description>Las últimas noticias, análisis y contenido del mundo gamer.</description>
     <language>es</language>
-    <copyright>Copyright 2023 Portal de Videojuegos</copyright>
-    <lastBuildDate>Thu, 27 Mar 2025 12:00:00 GMT</lastBuildDate>
-    
+    <copyright>Copyright 2025 Portal de Videojuegos</copyright>
+    <lastBuildDate>Tue, 01 Apr 2025 12:00:00 GMT</lastBuildDate>
+
     <item>
-      <title>Nuevo lanzamiento: Los mejores juegos de 2025</title>
-      <link>https://www.tuportaldevideojuegos.com/noticias/mejores-juegos-2025</link>
-      <description>Descubre cuáles son los juegos más esperados de este año y por qué están en boca de todos.</description>
-      <pubDate>Thu, 27 Mar 2025 10:00:00 GMT</pubDate>
+      <title>Nuevo análisis: Los mejores juegos de 2023</title>
+      <link>https://www.portaldevideojuegos.com/noticias/mejores-juegos-2025</link>
+      <description>Descubre los juegos más destacados de este año y por qué están marcando tendencia.</description>
+      <pubDate>Tue, 01 Apr 2025 10:00:00 GMT</pubDate>
     </item>
 
     <item>
-      <title>Actualización: Podcast del Portal de Videojuegos</title>
-      <link>https://www.tuportaldevideojuegos.com/podcast</link>
-      <description>Escucha nuestro último episodio del podcast, donde hablamos sobre los lanzamientos más recientes.</description>
-      <pubDate>Thu, 27 Mar 2025 08:00:00 GMT</pubDate>
+      <title>Podcast: Tendencias del gaming en 2025</title>
+      <link>https://www.portaldevideojuegos.com/podcast</link>
+      <description>Escucha nuestro último episodio donde discutimos las tendencias más emocionantes del gaming.</description>
+      <pubDate>Mon, 31 Mar 2025 08:00:00 GMT</pubDate>
     </item>
 
     <item>
-      <title>Explora nuestro Blog</title>
-      <link>https://www.tuportaldevideojuegos.com/blog</link>
-      <description>Lee artículos interesantes sobre la historia de los videojuegos y análisis de los títulos más populares.</description>
-      <pubDate>Wed, 26 Mar 2025 15:00:00 GMT</pubDate>
+      <title>Explora nuestro Blog: Historia de los videojuegos</title>
+      <link>https://www.portaldevideojuegos.com/blog</link>
+      <description>Lee artículos sobre la evolución de los videojuegos y análisis de los títulos más populares.</description>
+      <pubDate>Sun, 30 Mar 2025 15:00:00 GMT</pubDate>
     </item>
 
+    <item>
+      <title>Suscríbete a nuestros Feeds</title>
+      <link>https://www.portaldevideojuegos.com/feeds.opml</link>
+      <description>Descarga nuestro archivo OPML para mantenerte actualizado con nuestras publicaciones.</description>
+      <pubDate>Sat, 29 Mar 2025 12:00:00 GMT</pubDate>
+    </item>
   </channel>
 </rss>
