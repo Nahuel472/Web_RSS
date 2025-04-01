@@ -16,7 +16,7 @@
         <!-- Episodio 1 -->
         <item>
             <title>Episodio 1: Introducción al Portal de Videojuegos</title>
-            <link>https://nahuel472.github.io/Web_RSS/podcast//episodio1</link>
+            <link>https://nahuel472.github.io/Web_RSS/podcast/episodio1</link>
             <description>En este episodio, presentamos el Portal de Videojuegos y lo que puedes esperar de nuestro podcast.</description>
             <pubDate>Tue, 25 Mar 2025 12:00:00 +0000</pubDate>
             <enclosure url="https://nahuel472.github.io/Web_RSS/podcast/episodio1.mp3" length="12345678" type="audio/mpeg" />
