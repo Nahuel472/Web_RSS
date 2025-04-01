@@ -43,6 +43,27 @@ nav li a:hover {
     background-color: #111;
 }
 
+/* Centrar la barra de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 0;
+    display: flex; /* Usa flexbox para centrar los elementos */
+    justify-content: center; /* Centra los elementos dentro de la barra */
+}
+
+nav li {
+    margin: 0 10px; /* Espaciado entre los elementos */
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 /* Opcional: estilo para el elemento activo */
 .active {
     background-color: #4CAF50;

@@ -29,8 +29,18 @@
             <link>https://www.tuportaldevideojuegos.com/podcast/episodio2</link>
             <description>Hablamos sobre los mejores lanzamientos de videojuegos en 2025.</description>
             <pubDate>Thu, 27 Mar 2025 12:00:00 +0000</pubDate>
-            <enclosure url="https://www.tuportaldevideojuegos.com/podcast/episodio2.mp3" length="23456789" type="audio/mpeg" />
-            <guid>https://www.tuportaldevideojuegos.com/podcast/episodio2</guid>
+            <enclosure url="https://www.portaldevideojuegos.com/podcast/episodio2.mp3" length="23456789" type="audio/mpeg" />
+            <guid>https://www.portaldevideojuegos.com/podcast/episodio2</guid>
+        </item>
+        
+        <!-- Episodio 3 -->
+        <item>
+            <title>Episodio 3: Tendencias del gaming en 2025</title>
+            <link>https://www.portaldevideojuegos.com/podcast/episodio3</link>
+            <description>Exploramos las tendencias más emocionantes del mundo gamer en 2025.</description>
+            <pubDate>Tue, 01 Apr 2025 08:00:00 +0000</pubDate>
+            <enclosure url="https://www.portaldevideojuegos.com/podcast/episodio3.mp3" length="34567890" type="audio/mpeg" />
+            <guid>https://www.portaldevideojuegos.com/podcast/episodio3</guid>
         </item>
     </channel>
 </rss>
