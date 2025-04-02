@@ -9,19 +9,117 @@
 <body>
     <header>
         <h1>Historia de los Videojuegos</h1>
-    </header>
-    <nav>
+
+        <form action="search.html" method="get" class="search-bar">
+            <input type="text" name="q" placeholder="Buscar..." aria-label="Buscar">
+            <button type="submit">Buscar</button>
+        </form>
+     <nav>
         <ul>
-            <li><a href="../index.html">Volver al Blog</a></li>
+            <li><a href="../../index.html" >Inicio</a></li>
+            <li><a href="../../blog/index.html"class="active">Blog</a></li>
+            <li><a href="../../podcast/index.html">Podcast</a></li>
         </ul>
     </nav>
+
+    </header>
+   
     <main>
-        <p>Los videojuegos nacieron en la década de 1970 con los primeros juegos arcade como Pong. Desde entonces, la industria ha crecido exponencialmente, pasando por consolas icónicas como la NES, PlayStation y Xbox, hasta llegar a los juegos en la nube y la realidad virtual.</p>
+        <article>
+            <section>
+                <h2>Los Orígenes (1950-1970)</h2>
+                <p>Los primeros experimentos con videojuegos se remontan a laboratorios académicos en los años 50. "Tennis for Two" (1958) y "Spacewar!" (1962) fueron pioneros, aunque solo accesibles en universidades y centros de investigación.</p>
+                <figure>
+                    <img src="../images/5c8ad085a65bb.jpeg" alt="Captura de Spacewar! el primer videojuego de combate espacial" style="width: 50%; height: auto;">
+                    <figcaption>Spacewar! (1962) - Considerado el primer videojuego de combate espacial</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <h2>La Era Arcade (1970-1980)</h2>
+                <p>La industria despegó con el lanzamiento de "Pong" (1972) por Atari, seguido por clásicos como:</p>
+                <ul>
+                    <li><strong>Space Invaders</strong> (1978) - Popularizó los juegos de disparos</li>
+                    <li><strong>Pac-Man</strong> (1980) - Icono cultural que trascendió los videojuegos</li>
+                    <li><strong>Donkey Kong</strong> (1981) - Introdujo a Mario al mundo</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>La Revolución de las Consolas (1980-1990)</h2>
+                <p>Nintendo cambió el juego tras la crisis de 1983 con la NES (1985), que incluía clásicos como:</p>
+                <div class="consoles">
+                    <div>
+                        <h3>Consolas destacadas:</h3>
+                        <ol>
+                            <li>Atari 2600 (1977)</li>
+                            <li>Nintendo Entertainment System (1985)</li>
+                            <li>Sega Master System (1986)</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h3>Juegos influyentes:</h3>
+                        <ol>
+                            <li>Super Mario Bros. (1985)</li>
+                            <li>The Legend of Zelda (1986)</li>
+                            <li>Metroid (1986)</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>La Era 3D (1990-2000)</h2>
+                <p>PlayStation (1994) y Nintendo 64 (1996) llevaron los gráficos 3D al mainstream:</p>
+                <blockquote>
+                    "La transición a 3D fue tan impactante como el paso del cine mudo al sonoro" - Shigeru Miyamoto
+                </blockquote>
+                <p>Juegos como "Final Fantasy VII", "GoldenEye 007" y "Super Mario 64" redefinieron lo posible en los videojuegos.</p>
+            </section>
+
+            <section>
+                <h2>La Era Moderna (2000-Presente)</h2>
+                <p>Con Xbox Live (2002), los juegos online se masificaron. Hoy destacan:</p>
+                <table>
+                    <tr>
+                        <th>Tendencia</th>
+                        <th>Ejemplo</th>
+                        <th>Año</th>
+                    </tr>
+                    <tr>
+                        <td>Juegos como servicio</td>
+                        <td>Fortnite</td>
+                        <td>2017</td>
+                    </tr>
+                    <tr>
+                        <td>Realidad Virtual</td>
+                        <td>Half-Life: Alyx</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>Cloud Gaming</td>
+                        <td>Xbox Cloud Gaming</td>
+                        <td>2020</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2>El Futuro</h2>
+                <p>La industria sigue evolucionando con tecnologías como:</p>
+                <ul>
+                    <li>Inteligencia Artificial generativa</li>
+                    <li>Realidad aumentada</li>
+                    <li>Juegos blockchain</li>
+                    <li>Experiencias cross-media</li>
+                </ul>
+            </section>
+        </article>
     </main>
     <footer>
         <p>2023 Portal de Videojuegos</p>
         <a href="../../feed/rss.xml">
-            <button type="button">suscribirse al Blog</button>
+            <button type="button">Suscribirse al Blog</button>
         </a>
         <a href="../../feed/podcast.xml" type="application/rss+xml" title="Suscribirse a nuestro podcast">
             <button type="button">Suscribirse al Podcast</button>

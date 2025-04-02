@@ -8,25 +8,122 @@
 </head>
 <body>
     <header>
-        <h1>Los Mejores Juegos de 2023</h1>
+        <header>
+            <h1>Historia de los Videojuegos</h1>
+    
+            <form action="search.html" method="get" class="search-bar">
+                <input type="text" name="q" placeholder="Buscar..." aria-label="Buscar">
+                <button type="submit">Buscar</button>
+            </form>
+         <nav>
+            <ul>
+                <li><a href="../../index.html" >Inicio</a></li>
+                <li><a href="../../blog/index.html"class="active">Blog</a></li>
+                <li><a href="../../podcast/index.html">Podcast</a></li>
+            </ul>
+        </nav>
+    
+        </header>
     </header>
     <nav>
         <ul>
-            <li><a href="../index.html">Volver al Blog</a></li>
+            <li><a href="#zelda">Zelda</a></li>
+            <li><a href="#starfield">Starfield</a></li>
+            <li><a href="#hogwarts">Hogwarts</a></li>
         </ul>
     </nav>
     <main>
-        <p>Este año nos trajo títulos increíbles como "The Legend of Zelda: Tears of the Kingdom", "Starfield" y "Hogwarts Legacy". Cada uno de estos juegos ha redefinido sus géneros y ofrecido experiencias inolvidables para los jugadores.</p>
+        <article>
+            <p>El año 2023 ha sido uno de los mejores en la historia de los videojuegos, con lanzamientos que han superado todas las expectativas. A continuación, analizamos en profundidad los títulos más destacados:</p>
+            
+            <section id="zelda">
+                <h2>The Legend of Zelda: Tears of the Kingdom</h2>
+                <img src="../images/2x1_NSwitch_TloZTearsOfTheKingdom_Gamepage_image1600w.jpg" alt="Link explorando en Tears of the Kingdom" width="600">
+                <p>La secuela del aclamado Breath of the Wild lleva la experiencia a nuevos niveles con:</p>
+                <ul>
+                    <li>Un mapa expandido que incluye islas flotantes y el subsuelo</li>
+                    <li>Nuevas habilidades como Ultrahand y Fuse para crear objetos</li>
+                    <li>Una historia más profunda que explora los orígenes de Hyrule</li>
+                    <li>Más de 100 horas de contenido principal y secundario</li>
+                </ul>
+                <p>Con una puntuación de 97/100 en Metacritic, se posiciona como uno de los mejores juegos de la década.</p>
+            </section>
+            
+            <section id="starfield">
+                <h2>Starfield</h2>
+                <img src="../images/capsule_616x353.jpg" alt="Exploración espacial en Starfield" width="600">
+                <p>El RPG espacial de Bethesda ofrece:</p>
+                <ul>
+                    <li>Más de 1,000 planetas explorables con ecosistemas únicos</li>
+                    <li>Sistema de creación de naves espaciales completamente personalizable</li>
+                    <li>Una narrativa compleja con múltiples facciones y finales</li>
+                    <li>Modo foto realista con tecnología de escaneo facial avanzada</li>
+                </ul>
+                <p>Aunque tuvo un lanzamiento polémico, las actualizaciones posteriores lo han convertido en una experiencia imprescindible.</p>
+            </section>
+            
+            <section id="hogwarts">
+                <h2>Hogwarts Legacy</h2>
+                <img src="../images/Hogwarts_Legacy_promotional_photo_horizontal.jpg" alt="Escuela de Hogwarts en el juego" width="600">
+                <p>El RPG del mundo mágico sorprendió con:</p>
+                <ul>
+                    <li>Un Hogwarts completamente explorable con cientos de secretos</li>
+                    <li>Sistema de hechizos que evoluciona con el jugador</li>
+                    <li>Mecánicas de vuelo en escoba y criaturas mágicas</li>
+                    <li>Historia original ambientada en el siglo XIX</li>
+                </ul>
+                <p>Vendió más de 15 millones de copias en sus primeras semanas, rompiendo récords para un juego de Warner Bros.</p>
+            </section>
+            
+            <section class="honorable-mentions">
+                <h2>Menciones Honoríficas</h2>
+                <p>Otros juegos que merecen reconocimiento en 2023:</p>
+                <table>
+                    <tr>
+                        <th>Juego</th>
+                        <th>Género</th>
+                        <th>Destacado</th>
+                    </tr>
+                    <tr>
+                        <td>Baldur's Gate 3</td>
+                        <td>RPG</td>
+                        <td>Narrativa profunda y libertad de elección</td>
+                    </tr>
+                    <tr>
+                        <td>Final Fantasy XVI</td>
+                        <td>JRPG</td>
+                        <td>Combate espectacular y banda sonora</td>
+                    </tr>
+                    <tr>
+                        <td>Alan Wake 2</td>
+                        <td>Survival Horror</td>
+                        <td>Innovación narrativa y gráficos</td>
+                    </tr>
+                </table>
+            </section>
+            
+            <section class="conclusion">
+                <h2>Conclusiones</h2>
+                <p>2023 ha demostrado que los videojuegos siguen evolucionando como medio de entretenimiento y arte. Con presupuestos récord y avances tecnológicos, estos títulos han establecido nuevos estándares para:</p>
+                <ol>
+                    <li>Diseño de mundos abiertos</li>
+                    <li>Narrativa interactiva</li>
+                    <li>Personalización del jugador</li>
+                    <li>Inmersión y realismo</li>
+                </ol>
+                <p>¿Cuál ha sido tu juego favorito del año? ¡Déjanos tu opinión en los comentarios!</p>
+            </section>
+        </article>
     </main>
     <footer>
         <p>2023 Portal de Videojuegos</p>
-        <a href="feed/rss.xml">
-            <button type="button">suscribirse al Blog</button>
+        <a href="../../feed/rss.xml">
+            <button type="button">Suscribirse al Blog</button>
         </a>
-        <a href="feed/podcast.xml" type="application/rss+xml" title="Suscribirse a nuestro podcast">
+        <a href="../../feed/podcast.xml" type="application/rss+xml" title="Suscribirse a nuestro podcast">
             <button type="button">Suscribirse al Podcast</button>
         </a>
-        <a href="feed/feeds.opml" type="application/xml" title="Importar Feeds">
+        <a href="../../feed/feeds.opml" type="application/xml" title="Importar Feeds">
             <button type="button">Importar Feeds</button>
         </a>
     </footer>

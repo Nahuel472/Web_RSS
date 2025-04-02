@@ -231,3 +231,8 @@ body::after {
     display: block;
     height: 100px; /* Altura del margen inferior (equivalente a un scroll del ratón) */
 }
+
+.small-image {
+    width: 50%;
+    height: auto;
+}
