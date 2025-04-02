@@ -40,5 +40,21 @@
     <footer>
         <p>&copy; 2023 Portal de Videojuegos</p>
     </footer>
+
+    <script>
+        function subscribePodcast() {
+            // Detectar dispositivo para ofrecer la mejor opción de suscripción
+            if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+                // iOS - abrir en Apple Podcasts
+                window.location.href = 'podcast://' + window.location.host + '/feed/podcast.xml';
+            } else if (navigator.userAgent.includes('Android')) {
+                // Android - abrir en app de podcasts predeterminada
+                window.location.href = 'pcast://' + window.location.host + '/feed/podcast.xml';
+            } else {
+                // Desktop - descargar el feed o abrir en navegador
+                window.open('../feed/podcast.xml', '_blank');
+            }
+        }
+    </script>
 </body>
 </html>
