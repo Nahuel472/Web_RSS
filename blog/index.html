@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Videojuegos</title>
+    <title>Portal de Videojuegos</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
     <header>
-        <h1>Blog de Videojuegos</h1>
+        <h1>Bienvenido al Portal de Videojuegos</h1>
         <form action="search.html" method="get" class="search-bar">
             <input type="text" name="q" placeholder="Buscar..." aria-label="Buscar">
             <button type="submit">Buscar</button>
         </form>
+        <nav>
+            <ul>
+                <li><a href="../index.html" >Inicio</a></li>
+                <li><a href="../blog/index.html"class="active">Blog</a></li>
+                <li><a href="../podcast/index.html">Podcast</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="blog/index.html" class="active">Blog</a></li>
-            <li><a href="../podcast/index.html">Podcast</a></li>
-        </ul>
-    </nav>
     <main>
         <section>
             <h2>Últimos Artículos</h2>
@@ -43,7 +45,16 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Portal de Videojuegos</p>
+        <p>2023 Portal de Videojuegos</p>
+        <a href="feed/rss.xml">
+            <button type="button">suscribirse al Blog</button>
+        </a>
+        <a href="feed/podcast.xml" type="application/rss+xml" title="Suscribirse a nuestro podcast">
+            <button type="button">Suscribirse al Podcast</button>
+        </a>
+        <a href="feed/feeds.opml" type="application/xml" title="Importar Feeds">
+            <button type="button">Importar Feeds</button>
+        </a>
     </footer>
 </body>
 </html>

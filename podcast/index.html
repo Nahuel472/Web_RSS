@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Videojuegos</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
     <header>
         <h1>Bienvenido al Portal de Videojuegos</h1>
@@ -15,9 +17,9 @@
         </form>
         <nav>
             <ul>
-                <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="blog/index.html">Blog</a></li>
-                <li><a href="podcast/index.html">Podcast</a></li>
+                <li><a href="../index.html" >Inicio</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+                <li><a href="../podcast/index.html"class="active">Podcast</a></li>
             </ul>
         </nav>
     </header>
@@ -48,12 +50,16 @@
         </section>
     </main>
     <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 Portal de Videojuegos. Todos los derechos reservados.</p>
-            <a href="feeds.opml" download="feeds.opml">
-                <button type="button">Suscribirse a Feeds</button>
-            </a>
-        </div>
+        <p>2023 Portal de Videojuegos</p>
+        <a href="feed/rss.xml">
+            <button type="button">suscribirse al Blog</button>
+        </a>
+        <a href="feed/podcast.xml" type="application/rss+xml" title="Suscribirse a nuestro podcast">
+            <button type="button">Suscribirse al Podcast</button>
+        </a>
+        <a href="feed/feeds.opml" type="application/xml" title="Importar Feeds">
+            <button type="button">Importar Feeds</button>
+        </a>
     </footer>
 </body>
 </html>
