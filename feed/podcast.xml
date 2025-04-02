@@ -7,6 +7,14 @@
         <language>es</language>
         <copyright>Copyright 2025 Portal de Videojuegos</copyright>
         <lastBuildDate>Tue, 01 Apr 2025 12:00:00 +0000</lastBuildDate>
+        <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+        <itunes:author>Portal de Videojuegos</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:type>episodic</itunes:type>
+        <itunes:category text="Leisure">
+            <itunes:category text="Video Games"/>
+        </itunes:category>
+        
         <image>
             <url>https://nahuel472.github.io/Web_RSS/images/podcast-logo.png</url>
             <title>Podcast del Portal de Videojuegos</title>
@@ -29,8 +37,13 @@
             <link>https://nahuel472.github.io/Web_RSS/podcast/episodio2</link>
             <description>Hablamos sobre los mejores lanzamientos de videojuegos en 2025.</description>
             <pubDate>Thu, 27 Mar 2025 12:00:00 +0000</pubDate>
-            <enclosure url="https://nahuel472.github.io/Web_RSS/podcast/episodio2.mp3" length="23456789" type="audio/mpeg" />
-            <guid>https://nahuel472.github.io/Web_RSS/podcast/episodio2</guid>
+            <enclosure url="https://nahuel472.github.io/Web_RSS/podcast/episodio2.mp3" length="23456789" type="audio/mpeg"/>
+            <guid isPermaLink="false">episodio2-20250327</guid>
+            <itunes:duration>45:22</itunes:duration>
+            <itunes:episode>2</itunes:episode>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:explicit>no</itunes:explicit>
         </item>
         
         <!-- Episodio 3 -->
