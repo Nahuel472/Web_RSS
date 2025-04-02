@@ -3,42 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Videojuegos</title>
+    <title>Portal de Videojuegos - Podcasts</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="alternate" type="application/rss+xml" title="Podcast del Portal de Videojuegos" href="../feed/podcast.xml">
 </head>
 <body>
     <header>
-        <h1>Blog de Videojuegos</h1>
+        <h1>Bienvenido al Portal de Videojuegos</h1>
+        <form action="search.html" method="get" class="search-bar">
+            <input type="text" name="q" placeholder="Buscar..." aria-label="Buscar">
+            <button type="submit">Buscar</button>
+        </form>
     </header>
     <nav>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../podcast/index.html">Podcast</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../podcast/index.html" class="active">Podcast</a></li>
         </ul>
     </nav>
     <main>
-        <section>
-            <h2>Últimos Artículos</h2>
-            <!-- Artículos ordenados cronológicamente -->
-            <div class="post-box">
-                <h3><a href="posts/post2.html">Los Mejores Juegos de 2023</a></h3>
-                <p>Un repaso a los títulos más destacados del año, desde aventuras épicas hasta juegos multijugador.</p>
-                <p><small>Publicado el: 1 de abril de 2025</small></p>
+        <section id="podcasts">
+            <h2>Lista de Podcasts</h2>
+            
+            <div class="podcast-subscribe">
+                <h3>Suscríbete a nuestro Podcast</h3>
+                <div class="subscribe-buttons">
+                    <a href="../feed/podcast.xml" class="subscribe-button" type="application/rss+xml">
+                        <img src="../images/rss-icon.png" alt="RSS Feed" width="20">
+                        RSS Feed
+                    </a>
+                    <button class="subscribe-button" onclick="subscribePodcast()">
+                        <img src="../images/podcast-icon.png" alt="Suscribir en app" width="20">
+                        Suscribir en app
+                    </button>
+                </div>
             </div>
-            <div class="post-box">
-                <h3><a href="posts/post3.html">Consejos para Gamers</a></h3>
-                <p>Mejora tus habilidades con estos consejos prácticos para jugadores de todos los niveles.</p>
-                <p><small>Publicado el: 30 de marzo de 2025</small></p>
+
+            <div class="audio-container">
+                <h3>Podcast 1: Introducción al Portal de Videojuegos</h3>
+                <audio controls>
+                    <source src="episodio1.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+                <p class="podcast-meta">Publicado: 25/03/2025 | Duración: 30:15</p>
             </div>
-            <div class="post-box">
-                <h3><a href="posts/post1.html">Historia de los Videojuegos</a></h3>
-                <p>Descubre cómo los videojuegos han evolucionado desde los años 70 hasta la actualidad.</p>
-                <p><small>Publicado el: 25 de marzo de 2025</small></p>
+            <div class="audio-container">
+                <h3>Podcast 2: Los mejores juegos de 2025</h3>
+                <audio controls>
+                    <source src="episodio2.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+                <p class="podcast-meta">Publicado: 27/03/2025 | Duración: 45:22</p>
+            </div>
+            <div class="audio-container">
+                <h3>Podcast 3: Tendencias del gaming en 2025</h3>
+                <audio controls>
+                    <source src="episodio3.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+                <p class="podcast-meta">Publicado: 01/04/2025 | Duración: 52:10</p>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Portal de Videojuegos</p>
+        <div class="footer-content">
+            <p>&copy; 2025 Portal de Videojuegos. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="../feed/podcast.xml" class="footer-link" type="application/rss+xml">Feed del Podcast</a>
+                <a href="../feed/rss.xml" class="footer-link">Feed RSS</a>
+                <a href="../feed/feeds.opml" class="footer-link" download="feeds.opml">OPML</a>
+            </div>
+        </div>
     </footer>
 
     <script>
