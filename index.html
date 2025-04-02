@@ -36,32 +36,18 @@
                     href="podcast/index.html">Podcast</a> para mantenerte al día con las tendencias del gaming.</p>
         </section>
     </main>
-    <!-- partials/footer.html -->
-<footer class="site-footer">
-    <div class="footer-content">
-        <p>&copy; 2025 Portal de Videojuegos. Todos los derechos reservados.</p>
-        
-        <div class="subscription-links">
-            <h3>Suscríbete a nuestro contenido:</h3>
-            <div class="feed-buttons">
-                <!-- Suscripción al Podcast -->
-                <a href="../feed/podcast.xml" class="feed-button podcast-button" type="application/rss+xml" title="Feed del Podcast">
-                    Podcast
-                </a>
-                
-                <!-- Suscripción al Blog -->
-                <a href="../feed/rss.xml" class="feed-button blog-button" type="application/rss+xml" title="Feed del Blog">
-                    Blog
-                </a>
-                
-                <!-- Descarga OPML -->
-                <a href="../feed/feeds.opml" class="feed-button opml-button" download="suscripciones_portal_videojuegos.opml" title="Descargar todas las suscripciones">
-                    Importar todo (OPML)
-                </a>
-            </div>
-        </div>
-    </div>
-</footer>
+    <footer>
+        <p>2023 Portal de Videojuegos</p>
+        <a href="feed/rss.xml">
+            <button type="button">Ver RSS</button>
+        </a>
+        <a href="feed/podcast.xml" type="application/rss+xml" title="Suscribirse a nuestro podcast">
+            <button type="button">Suscribirse al Podcast</button>
+        </a>
+        <a href="feed/feeds.opml" type="application/xml" title="Importar Feeds">
+            <button type="button">Importar Feeds</button>
+        </a>
+    </footer>
 </body>
 
 </html>
