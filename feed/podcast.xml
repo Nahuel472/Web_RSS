@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
     <channel>
         <title>Podcast del Portal de Videojuegos</title>
         <link>https://nahuel472.github.io/Web_RSS/podcast</link>
-        <description>El mejor podcast sobre videojuegos, noticias, análisis y más.</description>
+        <description>El mejor podcast sobre videojuegos, noticias, análisis y más. Discutimos los últimos lanzamientos, tendencias y ofrecemos consejos para jugadores de todos los niveles.</description>
         <language>es</language>
-        <copyright>Copyright 2025 Portal de Videojuegos</copyright>
+        <copyright>© 2025 Portal de Videojuegos. Todos los derechos reservados.</copyright>
         <lastBuildDate>Tue, 01 Apr 2025 12:00:00 +0000</lastBuildDate>
         <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
         <itunes:author>Portal de Videojuegos</itunes:author>
@@ -19,23 +19,57 @@
             <url>https://nahuel472.github.io/Web_RSS/images/podcast-logo.png</url>
             <title>Podcast del Portal de Videojuegos</title>
             <link>https://nahuel472.github.io/Web_RSS/podcast</link>
+            <width>1400</width>
+            <height>1400</height>
         </image>
+        
+        <itunes:image href="https://nahuel472.github.io/Web_RSS/images/podcast-logo.png"/>
         
         <!-- Episodio 1 -->
         <item>
             <title>Episodio 1: Introducción al Portal de Videojuegos</title>
             <link>https://nahuel472.github.io/Web_RSS/podcast/episodio1</link>
-            <description>En este episodio, presentamos el Portal de Videojuegos y lo que puedes esperar de nuestro podcast.</description>
+            <description>
+                <![CDATA[
+                En este episodio inaugural, presentamos el Portal de Videojuegos y lo que puedes esperar de nuestro podcast. Hablamos sobre nuestra pasión por los videojuegos y nuestros planes para futuros episodios.
+                ]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+                <p>En este episodio inaugural, presentamos el Portal de Videojuegos y lo que puedes esperar de nuestro podcast. Hablamos sobre nuestra pasión por los videojuegos y nuestros planes para futuros episodios.</p>
+                <p>Mencionamos algunos de los temas que cubriremos en las próximas semanas, incluyendo análisis de juegos, tendencias de la industria y consejos para jugadores.</p>
+                ]]>
+            </content:encoded>
             <pubDate>Tue, 25 Mar 2025 12:00:00 +0000</pubDate>
-            <enclosure url="https://nahuel472.github.io/Web_RSS/podcast/episodio1.mp3" length="12345678" type="audio/mpeg" />
-            <guid>https://nahuel472.github.io/Web_RSS/podcast/episodio1</guid>
+            <enclosure url="https://nahuel472.github.io/Web_RSS/podcast/episodio1.mp3" length="12345678" type="audio/mpeg"/>
+            <guid isPermaLink="false">episodio1-20250325</guid>
+            <itunes:duration>30:15</itunes:duration>
+            <itunes:episode>1</itunes:episode>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:explicit>no</itunes:explicit>
         </item>
         
         <!-- Episodio 2 -->
         <item>
             <title>Episodio 2: Los mejores juegos de 2025</title>
             <link>https://nahuel472.github.io/Web_RSS/podcast/episodio2</link>
-            <description>Hablamos sobre los mejores lanzamientos de videojuegos en 2025.</description>
+            <description>
+                <![CDATA[
+                Analizamos los mejores lanzamientos de videojuegos en 2025, incluyendo los más esperados y las sorpresas inesperadas. Discutimos gameplay, gráficos y mecánicas innovadoras.
+                ]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+                <p>En este episodio, nuestro equipo analiza los mejores lanzamientos de videojuegos en 2025. Cubrimos:</p>
+                <ul>
+                    <li>Juegos AAA más esperados</li>
+                    <li>Indies que están rompiendo esquemas</li>
+                    <li>Títulos que han superado expectativas</li>
+                    <li>Fracasos sorprendentes</li>
+                </ul>
+                ]]>
+            </content:encoded>
             <pubDate>Thu, 27 Mar 2025 12:00:00 +0000</pubDate>
             <enclosure url="https://nahuel472.github.io/Web_RSS/podcast/episodio2.mp3" length="23456789" type="audio/mpeg"/>
             <guid isPermaLink="false">episodio2-20250327</guid>
@@ -50,10 +84,31 @@
         <item>
             <title>Episodio 3: Tendencias del gaming en 2025</title>
             <link>https://nahuel472.github.io/Web_RSS/podcast/episodio3</link>
-            <description>Exploramos las tendencias más emocionantes del mundo gamer en 2025.</description>
+            <description>
+                <![CDATA[
+                Exploramos las tendencias más emocionantes del mundo gamer en 2025, incluyendo realidad virtual, juegos en la nube, eSports y cómo la tecnología está cambiando la forma en que jugamos.
+                ]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+                <p>En este episodio, discutimos las principales tendencias que están dando forma a la industria de los videojuegos en 2025:</p>
+                <ol>
+                    <li>Avances en realidad virtual y aumentada</li>
+                    <li>Crecimiento de los juegos en la nube</li>
+                    <li>Expansión del mercado de eSports</li>
+                    <li>Nuevos modelos de negocio</li>
+                    <li>Impacto de la IA en el desarrollo de juegos</li>
+                </ol>
+                ]]>
+            </content:encoded>
             <pubDate>Tue, 01 Apr 2025 08:00:00 +0000</pubDate>
-            <enclosure url="https://nahuel472.github.io/Web_RSS/podcast/episodio3.mp3" length="34567890" type="audio/mpeg" />
-            <guid>https://nahuel472.github.io/Web_RSS/podcast/episodio3</guid>
+            <enclosure url="https://nahuel472.github.io/Web_RSS/podcast/episodio3.mp3" length="34567890" type="audio/mpeg"/>
+            <guid isPermaLink="false">episodio3-20250401</guid>
+            <itunes:duration>52:10</itunes:duration>
+            <itunes:episode>3</itunes:episode>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:explicit>no</itunes:explicit>
         </item>
     </channel>
 </rss>
